@@ -28,3 +28,32 @@
  .artigo-autor {
      font-weight: bold;
  }
+
+ .cabecalho {
+  display: flex;
+  align-items: center; /* Alinha a imagem e o texto na mesma altura central */
+  justify-content: center; /* Centraliza o conjunto todo na tela */
+  gap: 20px; /* Cria um espaço de 20px entre a logo e o texto */
+  background-color: #00008b; /* Azul de fundo aproximado do seu projeto */
+  color: #ffffff;
+  padding: 20px;
+}
+
+.logo {
+  width: 150px; /* Ajuste o tamanho da logo conforme preferir */
+  height: auto;
+}
+
+.texto-cabecalho {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto-cabecalho h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.texto-cabecalho p {
+  margin: 5px 0 0 0;
+}
