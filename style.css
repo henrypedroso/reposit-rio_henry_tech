@@ -15,6 +15,12 @@
      color: rgb(4, 4, 155);
      margin: 0 auto;
      padding: 16px;
+     display: flex;
+
+     border: 1px solid blue;
+     margin: 16px;
+     gap: 16px;
+     margin: 16px;
 
  }
 
