@@ -17,15 +17,18 @@
      padding: 16px;
      display: flex;
 
-     border: 1px solid blue;
-     margin: 16px;
-     gap: 16px;
-     padding: 20px;
+     
 
  }
 
  article {
      display: flex;
+
+     border: 1px solid blue;
+
+     margin: 16px;
+     gap: 16px;
+     padding: 16px;
  }
 
  img {
